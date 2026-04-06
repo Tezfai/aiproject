@@ -10,7 +10,7 @@ export function Header() {
         
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="/logo.png"
+            src="/logo6.png"
             alt="Opticare Logo"
             width={32}
             height={32}

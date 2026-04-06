@@ -1,3 +1,8 @@
+import { SignUpButton } from "@clerk/nextjs";
+import { Button } from "../ui/button";
+import { Calendar1Icon, MicIcon } from "lucide-react";
+import Image from "next/image";
+
 export function Hero() {
   return (
     <section className="relative h-screen flex items-center overflow-hidden pt-20">
@@ -44,8 +49,31 @@ export function Hero() {
                   Talk to our AI eye assistant for instant vision insights, seamless booking, and personalized eye care recommendations. Available 24/7.
                 </p>
               </div>
+              {/* CTA BUTTONS */}
+              <div className="flex flex-col sm:flex-row gap-4">
+                <SignUpButton mode="modal">
+                  <Button size="lg"><MicIcon className="mr-2 size-5" />Try Voice Agent </Button>
+                </SignUpButton>
+                <SignUpButton mode="modal">
+                  <Button size="lg" variant={"outline"}><Calendar1Icon className="mr-2 size-5" />Book Appointment </Button>
+                </SignUpButton>
+              </div>
             </div>
 
+
+            {/* RIGHT CONTENT */}
+            <div className="relative lg:pl-8">
+              <div className="absolute -top-4 -left-4 w-24 h-24 bg-gradient-to-br from-primary/20 to-primary/10 rounded-2xl rotate-45 blur-xl"></div>
+              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-gradient-to-br from-primary/15 to-primary/5 rounded-full blur-2xl"></div>
+              <Image
+                src="/hero.png"
+                alt="AI Eye Care Assistant"
+                width={600}
+                height={400}
+                className="w-full h-auto "
+              />
+            </div>
+            
           </div>
         </div>
       </div>
