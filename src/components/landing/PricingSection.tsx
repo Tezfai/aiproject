@@ -5,3 +5,4 @@ export function PricingSection() {
       <p className="mt-3">Free tier + scalable paid plans for teams and enterprises.</p>
     </section>
   );
+}
