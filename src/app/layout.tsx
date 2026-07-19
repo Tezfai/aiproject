@@ -21,7 +21,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-title: "OptiCare AI – AI Powered Eye Care Assistant",
+title: "Opticare AI – AI Powered Eye Care Assistant",
 description: "Get instant eye care guidance and vision support through voice calls with our AI assistant",
 
 };
