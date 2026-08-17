@@ -8,7 +8,7 @@ function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <Image
-                src="/logo.png"
+                src="/logo6.png"
                 alt="Opticare Logo"
                 width={32}
                 height={32}
@@ -86,7 +86,7 @@ function Footer() {
         </div>
 
         <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; 2024 Opticare. Built for real people with real vision questions.</p>
+          <p>&copy; 2026 Opticare. Built for real people with real vision questions.</p>
         </div>
       </div>
     </footer>

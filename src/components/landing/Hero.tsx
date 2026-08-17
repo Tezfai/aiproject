@@ -1,3 +1,5 @@
+"use client";
+
 import { SignUpButton } from "@clerk/nextjs";
 import { Button } from "../ui/button";
 import { Calendar1Icon, MicIcon } from "lucide-react";
