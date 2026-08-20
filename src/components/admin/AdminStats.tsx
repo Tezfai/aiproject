@@ -39,7 +39,7 @@ function AdminStats({
             <div>
               <div className="text-2xl font-bold">{activeDoctors}</div>
               <div className="text-sm text-muted-foreground">Active Doctors</div>
-            </div>
+            </div> 
           </div>
         </CardContent>
       </Card>
